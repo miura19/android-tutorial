@@ -27,4 +27,29 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/playFortune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playFortune"
+        app:layout_constraintBottom_toTopOf="@+id/btnTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourFortuneIs"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <TextView
+        android:id="@+id/yourFortuneIs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/yourFortuneIs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFortune" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

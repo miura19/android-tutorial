@@ -3,6 +3,7 @@ package com.example.myfirstandroidapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,10 +21,17 @@ class SubActivity : AppCompatActivity() {
         }
 
         val btnTop = findViewById<Button>(R.id.btnTop)
+        val playFortune = findViewById<Button>(R.id.playFortune)
+        val yourFortuneIs = findViewById<TextView>(R.id.yourFortuneIs)
+
 
         btnTop.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
+        }
+
+        playFortune.setOnClickListener {
+            yourFortuneIs.text = "大吉！！！"
         }
     }
 }
