@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val btnCat = findViewById<Button>(R.id.btnCat)
         val btnClear = findViewById<Button>(R.id.btnClear)
         val textView = findViewById<TextView>(R.id.textView)
+        val btnFortune = findViewById<Button>(R.id.btnFortune)
 
         btnDog.setOnClickListener {
             textView.text = "いぬ"
@@ -35,6 +36,10 @@ class MainActivity : AppCompatActivity() {
 
         btnClear.setOnClickListener {
             textView.text = "..."
+        }
+
+        btnFortune.setOnClickListener {
+            startActivity(Intent(this, SubActivity::class.java))
         }
     }
 }

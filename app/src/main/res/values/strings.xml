@@ -4,4 +4,7 @@
     <string name="btnCat">ねこ</string>
     <string name="btnDog">いぬ</string>
     <string name="btnClear">クリア</string>
+    <string name="btnFortune">占いへ</string>
+    <string name="textFortune">占い</string>
+    <string name="top">トップへ</string>
 </resources>
