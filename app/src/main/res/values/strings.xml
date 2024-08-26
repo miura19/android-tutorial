@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstAndroidApp</string>
+    <string name="textview">TextView</string>
+    <string name="btnCat">ねこ</string>
+    <string name="btnDog">いぬ</string>
+    <string name="btnClear">クリア</string>
+</resources>
