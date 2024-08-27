@@ -2,6 +2,7 @@ package com.example.myfirstandroidapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -31,7 +32,11 @@ class SubActivity : AppCompatActivity() {
         }
 
         playFortune.setOnClickListener {
-            yourFortuneIs.text = "大吉！！！"
+            val fortuneList = arrayListOf("大吉", "中吉", "吉", "凶", "大凶")
+//            Log.d("Debug", fortuneList.size.toString())
+            println(fortuneList.size.toString())
+            val randomNum = (0 until fortuneList.size).random()
+            yourFortuneIs.text = fortuneList[randomNum]
         }
     }
 }
