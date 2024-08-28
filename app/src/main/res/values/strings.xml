@@ -9,4 +9,6 @@
     <string name="top">トップへ</string>
     <string name="playFortune">占ってみる</string>
     <string name="yourFortuneIs">あなたの運勢は...</string>
+    <string name="goToAnimal">リスト</string>
+    <string name="list">リスト</string>
 </resources>
