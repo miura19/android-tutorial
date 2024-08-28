@@ -11,4 +11,5 @@
     <string name="yourFortuneIs">あなたの運勢は...</string>
     <string name="goToAnimal">リスト</string>
     <string name="list">リスト</string>
+    <string name="checkbox">同意する</string>
 </resources>
